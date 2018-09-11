@@ -1,0 +1,548 @@
+@font-face
+{
+	font-family: "Coolvetica";
+	src: url("polices/coolvetica.ttf") format("ttf");
+}
+
+@font-face
+{
+	font-family: "GoboldUplow";
+	src: url("polices/GoboldUplow.otf");
+}
+
+@font-face
+{
+	font-family: "OldBlack";
+	src: url("polices/OldSansBlack.ttf");
+}
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	height: 100%;
+	background-color: #111 !important;
+	color: #fff !important;
+}
+
+#page
+{
+	height: 100%;
+}
+
+#background_lines
+{
+	position: absolute;
+	
+	margin-left: 5%;
+	margin-right: 5%;
+	
+	width: 90%;
+	height: 100%;
+
+	border-left: 1px solid #333;
+	
+	position: fixed;
+}
+
+#background_lines div
+{
+	height: 100%;
+	
+	border-right: 1px solid #333;
+}
+
+/*HEADER*/
+
+header
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+	padding-left: 5%;
+	padding-right: 5%;
+
+	/*background-image: url('images/background_header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	
+	font-size: 1.4em;
+	text-align: center;
+}
+
+header .row
+{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+header .col-lg-2 div
+{
+	padding: 0 !important;
+}
+
+header div a
+{
+	color: #fff;
+}
+
+header div a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+header img
+{
+	width: 100%;
+	max-width: 100%;
+}
+
+#title_container
+{
+	padding-right: 10px !important;
+	padding-left: 10px !important;
+	padding-bottom: 20px;
+}
+
+#menu_container ul
+{
+	list-style-type: none;
+}
+
+#menu_container ul li
+{
+	text-align: left;
+	
+	padding-top: 8px;
+}
+
+.button
+{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	
+	text-align: center;
+	
+	color: #fff;
+	
+	background-color: #ff3131;
+}
+
+
+/*COMMUN*/
+
+section
+{
+	/*border-top: 2px solid black;*/
+	/*border-bottom: 2px solid black;*/
+
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+section h2
+{
+	font-size: 2em;
+	font-weight: bold;
+	
+	text-align: center;
+	
+	line-height: 1.4em;
+
+	padding-bottom: 10px;
+}
+
+section h3
+{
+	font-size: 1.4em;
+	font-weight: bold;
+	
+	line-height: 2em;
+	
+	padding-bottom: 10px;
+}
+
+section .row
+{
+	margin: 0 !important;
+}
+
+section .row > div
+{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+section a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+section a:hover
+{
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid white;
+}
+
+.case
+{
+	padding: 30px 10px !important;
+}
+
+.image img
+{
+	width: 100%;
+}
+
+/*COOP*/
+
+#coop
+{
+	padding: 5%;
+	
+	text-align: justify;
+}
+
+#coop .t1
+{
+	background-color: #c1df16;
+	
+	min-height: 400px;
+}
+
+#coop .t2
+{
+	background-color: #c8d45cb9;
+	
+	min-height: 400px;
+}
+
+#coop .decal
+{
+	height: 100px;
+}
+
+/*TOOLS*/
+
+#tools
+{
+	padding: 5%;
+	
+	text-align: justify;
+}
+
+#tools .t1
+{
+	background-color: #3860c5d3;
+	
+	min-height: 400px;
+}
+
+#tools .t2
+{
+	background-color: #0071f2;
+	
+	min-height: 400px;
+}
+
+#tools .decal
+{
+	height: 120px;
+}
+
+/*LIVRAISON*/
+
+#livraison
+{
+    padding: 5%;
+
+    text-align: justify;
+}
+
+#livraison .decal
+{
+	height: 120px;
+}
+
+#livraison table
+{
+	margin-left: 1em;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+#livraison td
+{
+	text-align: center;
+	padding: 15px;
+}
+
+#livraison td img
+{
+	height: 60%;
+}
+
+#livraison th
+{
+	padding: 15px;
+}
+
+#livraison_img img
+{
+	width: 100%;
+}
+
+
+/*MAP*/
+
+#map
+{
+	width: 100%;
+	height: 400px;
+	
+	margin-top: 100px;
+	
+	background-color: black;
+}
+
+/*STEPS*/
+
+#steps
+{
+	padding: 5%;
+}
+
+#steps .decal
+{
+	height: 180px;
+}
+
+
+/*STOCKAGE*/
+
+#stock
+{
+	padding: 5%;
+	
+	text-align: justify;
+}
+
+#stock .t1
+{
+	background-color: #f14444c0;
+	
+	min-height: 400px;
+}
+
+#stock .t2
+{
+	background-color: #fd2752d3;
+	
+	min-height: 400px;
+}
+
+#stock .decal
+{
+	height: 120px;
+}
+
+/*PARTENAIRES*/
+
+#partenaires
+{
+	background-color: #222;
+
+	padding-left: 20%;
+	padding-right: 35%;
+}
+
+#partenaires p
+{
+	font-size: 1.2em;
+
+	line-height: 2em;
+}
+
+#partenaires strong
+{
+	font-weight: normal;
+	background-color: #fff;
+
+	padding: 5px 10px;
+	
+	color: #222;
+}
+
+#partenaires a
+{
+	color: #222;
+	text-decoration: none;
+}
+
+#partenaires a:hover
+{
+	text-decoration: underline;
+}
+
+/*POSITION*/
+
+#position1
+{
+	padding: 5%;
+	
+	text-align: justify;
+}
+
+#position1 .t1
+{
+	background-color: #00ff44bd;
+	
+	min-height: 400px;
+}
+
+#position1 .t2
+{
+	background-color: #26d44b;
+	
+	min-height: 400px;
+}
+
+#position1 .decal
+{
+	height: 120px;
+}
+
+/*CONTACT*/
+
+#contact
+{
+	padding: 5%;
+	
+	text-align: left !important;
+}
+
+#contact .decal
+{
+	height: 100px;
+}
+
+#contact p
+{
+	font-size: 1.2em;
+
+	line-height: 2em;
+
+	padding-bottom: 50px;
+}
+
+#contact strong
+{
+	font-weight: normal;
+	border-bottom: 1px solid white;
+}
+
+/*FOOTER*/
+
+footer
+{
+	padding: 5%;
+	
+	background-color: #010101;
+}
+
+footer .row
+{
+	margin: 0 !important;
+}
+
+footer .col-lg-2 div
+{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+footer h3
+{
+	font-size: 1.6em;
+	margin-bottom: 30px;
+}
+
+footer p
+{
+	font-size: 1.2em;
+}
+
+/*FORM*/
+
+form
+{
+	padding-top: 30px;
+}
+
+input
+{
+	font-size: 2em;
+	padding: 10px 20px;
+	color: #222;
+}
+
+/*SELECTION*/
+
+::selection{
+  background-color: #000;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+	#background_lines
+	{
+		border-left: 1px solid #333;
+	}
+
+	#background_lines div
+	{
+		border-right: 1px solid #333;
+	}
+	
+	#tools .t1
+	{
+		min-height: 100px;
+	}
+
+	#tools .t2
+	{
+		min-height: 100px;
+	}
+	
+	#stock .t1
+	{
+		min-height: 100px;
+	}
+
+	#stock .t2
+	{
+		min-height: 100px;
+	}
+	
+	#map
+	{
+		height: 300px;
+	}
+}
